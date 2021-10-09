@@ -1,0 +1,380 @@
+.home-header .nav-bar, .home-header .home-section, .card-featured, .introduction-section, .introductiontwo-section, .pricing-section .pricetable, .pricing-section .pricetable .pricecard .priceUl .standrandprice-div, .screenshot-section .screenshotphoto-div, .testominal .testimonianl-div, .testominal .testimonianl-div .sub-testimonial, .download-section .downlaod-div-btn, .download-section .downlaod-div-btn .download-btn, .news-section, .footer {
+  display: flex;
+  flex-wrap: wrap; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.home-header {
+  background-image: url("../img-20210929T185034Z-001/img/banner/home-banner.jpg");
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .home-header .nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em; }
+    .home-header .nav-bar figure {
+      flex-basis: 20%; }
+    .home-header .nav-bar ul {
+      flex-basis: 75%;
+      text-align: right; }
+      .home-header .nav-bar ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 2.5em;
+        color: white; }
+  .home-header .home-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em; }
+    .home-header .home-section header {
+      flex-basis: 41%; }
+      .home-header .home-section header h1 {
+        font-size: 4.7rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: white; }
+      .home-header .home-section header p {
+        font-size: 0.9em;
+        margin: 2em 0 3em 0;
+        line-height: 1.7em;
+        color: white; }
+      .home-header .home-section header button {
+        height: 9vh;
+        width: 14vw;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 1rem;
+        background-color: white; }
+    .home-header .home-section .home-img {
+      flex-flow: 55%;
+      height: 100vh; }
+      .home-header .home-section .home-img img {
+        width: 100%;
+        height: 100%; }
+
+.featured-header {
+  display: block;
+  margin: 3rem auto; }
+  .featured-header h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .featured-header p {
+    width: 50vw;
+    text-align: center;
+    margin: 4.5em auto;
+    color: gray; }
+
+.card-featured {
+  justify-content: space-evenly;
+  align-items: baseline; }
+
+.card-div {
+  flex-basis: 21%;
+  height: 55vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 1rem;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px #eee; }
+
+.featured-img h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1em 0; }
+
+.featured-img p {
+  line-height: 1.3rem;
+  color: gray;
+  font-size: 0.9rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.introduction-section, .introductiontwo-section {
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(235, 239, 240, 0.4);
+  margin-top: 8rem;
+  padding: 4em; }
+  .introduction-section figure, .introductiontwo-section figure {
+    flex-basis: 40%; }
+    .introduction-section figure img, .introductiontwo-section figure img {
+      width: 100%; }
+  .introduction-section .introduction-div, .introductiontwo-section .introduction-div {
+    flex-basis: 45%; }
+    .introduction-section .introduction-div h2, .introductiontwo-section .introduction-div h2 {
+      font-size: 2.7rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: 400; }
+    .introduction-section .introduction-div p, .introductiontwo-section .introduction-div p {
+      font-size: 1.1rem;
+      color: gray;
+      line-height: 1.3;
+      margin-top: 1.5em; }
+    .introduction-section .introduction-div input, .introductiontwo-section .introduction-div input {
+      background: linear-gradient(#c04df5, #7009ed);
+      height: 9vh;
+      width: 12vw;
+      border: transparent;
+      border-radius: 5px;
+      font-size: 1rem;
+      color: white;
+      padding: 1rem;
+      margin-top: 2.5rem;
+      box-shadow: 25px 25px 25px #ccc; }
+
+.introductiontwo-section {
+  background-color: white; }
+  .introductiontwo-section figure {
+    order: 2; }
+  .introductiontwo-section .introduction-div {
+    order: 1; }
+
+.video-section {
+  width: 100%; }
+  .video-section .video-figure {
+    width: 100%;
+    object-fit: cover;
+    position: relative; }
+    .video-section .video-figure img {
+      width: 100%; }
+    .video-section .video-figure .layout {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border-radius: 15px;
+      transform: translate(-50%, -50%); }
+      .video-section .video-figure .layout img {
+        width: 7vw; }
+
+.pricing-section {
+  background-color: rgba(236, 236, 245, 0.4);
+  margin-top: 8rem;
+  padding: 3em; }
+  .pricing-section .featured-header p {
+    margin-top: 3em; }
+  .pricing-section .pricetable {
+    justify-content: space-evenly;
+    align-items: center; }
+    .pricing-section .pricetable .pricecard {
+      background-color: white;
+      flex-basis: 27%;
+      height: 69vh; }
+      .pricing-section .pricetable .pricecard .priceUl {
+        list-style: none; }
+        .pricing-section .pricetable .pricecard .priceUl li {
+          text-align: center;
+          padding: 0.7em; }
+          .pricing-section .pricetable .pricecard .priceUl li input {
+            height: 9vh;
+            width: 14vw;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            padding: 1rem; }
+        .pricing-section .pricetable .pricecard .priceUl .standrandprice-div {
+          justify-content: space-evenly;
+          align-items: center;
+          height: 16.5vh;
+          border-bottom: 1px solid #ccc; }
+          .pricing-section .pricetable .pricecard .priceUl .standrandprice-div h3 {
+            text-align: left;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            font-weight: 100; }
+            .pricing-section .pricetable .pricecard .priceUl .standrandprice-div h3 p {
+              font-size: 0.8rem;
+              font-weight: 100;
+              color: gray; }
+          .pricing-section .pricetable .pricecard .priceUl .standrandprice-div p {
+            font-size: 2rem; }
+
+.featured-header {
+  margin-top: 8rem; }
+  .featured-header p {
+    margin: 2.5em auto; }
+
+.screenshot-section .screenshotphoto-div {
+  padding: 3em;
+  justify-content: center; }
+  .screenshot-section .screenshotphoto-div figure {
+    flex-basis: 25%;
+    height: 60vh;
+    box-shadow: 10px 10px 10px #ccc; }
+    .screenshot-section .screenshotphoto-div figure img {
+      height: 100%;
+      width: 100%;
+      object-fit: scale-down; }
+
+.testominal {
+  margin-top: 8rem;
+  background-color: rgba(236, 236, 245, 0.4);
+  padding: 0.5em;
+  height: 90vh; }
+  .testominal .testimonianl-div {
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin-top: 4em; }
+    .testominal .testimonianl-div .sub-testimonial {
+      flex-basis: 35%;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 2.5em;
+      padding: 2em;
+      background-color: white;
+      border-radius: 10px;
+      height: 27vh; }
+      .testominal .testimonianl-div .sub-testimonial figure {
+        flex-basis: 15%; }
+        .testominal .testimonianl-div .sub-testimonial figure img {
+          width: 100%; }
+      .testominal .testimonianl-div .sub-testimonial .text-testimonail {
+        padding: 0.2em;
+        flex-basis: 80%;
+        height: 17vh; }
+        .testominal .testimonianl-div .sub-testimonial .text-testimonail p {
+          color: gray;
+          font-size: 0.8rem;
+          line-height: 1.3em; }
+        .testominal .testimonianl-div .sub-testimonial .text-testimonail h4 {
+          margin-top: 1em;
+          line-height: 1.4em; }
+
+.download-section {
+  background-image: url("../img-20210929T185034Z-001/img/banner/banner.jpg");
+  padding: 5em;
+  height: 60vh; }
+  .download-section h2 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    font-size: 2.5rem; }
+  .download-section p {
+    color: white;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5em; }
+  .download-section .downlaod-div-btn {
+    justify-content: center; }
+    .download-section .downlaod-div-btn .download-btn {
+      width: 16vw;
+      height: 10vh;
+      justify-content: center;
+      align-items: center;
+      margin: 2.5em 1em;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: transparent;
+      padding: 0.2em; }
+      .download-section .downlaod-div-btn .download-btn span {
+        flex-basis: 75%;
+        font-size: 1.3rem;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: white; }
+        .download-section .downlaod-div-btn .download-btn span p {
+          font-size: 0.7rem; }
+      .download-section .downlaod-div-btn .download-btn .fab, .download-section .downlaod-div-btn .download-btn .footer .insta-div div .fas, .footer .insta-div div .download-section .downlaod-div-btn .download-btn .fas {
+        font-size: 2.5rem;
+        color: white; }
+
+.news-section {
+  justify-content: center; }
+  .news-section .news-card {
+    flex-basis: 25%;
+    background-color: rgba(236, 236, 245, 0.4);
+    height: 60vh;
+    padding: 2em;
+    margin: 1em; }
+    .news-section .news-card p {
+      background-color: white;
+      border: 1px solid #eee;
+      padding: 0.4em;
+      color: gray;
+      width: 9vw; }
+    .news-section .news-card h4 {
+      margin: 1.1em 0;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      line-height: 1.5em; }
+    .news-section .news-card span {
+      color: gray;
+      line-height: 1.3em; }
+    .news-section .news-card .news-info {
+      margin-top: 2em; }
+      .news-section .news-card .news-info p {
+        display: inline-block;
+        font-size: 0.7em;
+        width: 5.9vw;
+        margin-left: 0.5em;
+        border: transparent;
+        background-color: transparent; }
+
+.footer {
+  height: 85vh;
+  margin-top: 8rem;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4em;
+  background-color: #353333;
+  color: white; }
+  .footer .product-div {
+    flex-basis: 30%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    .footer .product-div h3 {
+      margin-bottom: 2em; }
+    .footer .product-div p {
+      font-size: 0.9em;
+      padding: 1em;
+      color: #ccc; }
+  .footer .newsletter-div {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    flex-basis: 40%; }
+    .footer .newsletter-div h3 {
+      margin-bottom: 2em; }
+    .footer .newsletter-div p {
+      color: #ccc;
+      font-size: 0.9em; }
+    .footer .newsletter-div .email-input {
+      margin-top: 3em;
+      width: 31vw;
+      padding: 0.5em;
+      border: transparent;
+      height: 6vh;
+      border-radius: 20px; }
+    .footer .newsletter-div .button-input {
+      margin-top: 3em;
+      width: 10vw;
+      height: 6vh;
+      background: linear-gradient(#c04df5, #7009ed);
+      color: white;
+      border: transparent;
+      margin-left: -6em;
+      border-radius: 20px; }
+  .footer .insta-div {
+    flex-basis: 21.2%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 0.3em; }
+    .footer .insta-div h3 {
+      line-height: 3em; }
+    .footer .insta-div div {
+      text-align: right;
+      margin-top: 8rem; }
+      .footer .insta-div div .fab, .footer .insta-div div .fas {
+        font-size: 0.8rem;
+        background-color: #1a1919;
+        padding: 0.7em;
+        margin: 0.1em; }
+
+.copyright-div {
+  margin-top: -7.8em;
+  color: #ccc;
+  padding-left: 0.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .copyright-div p {
+    font-size: 0.8em; }
+    .copyright-div p .far, .copyright-div p span {
+      color: #500ca3; }
